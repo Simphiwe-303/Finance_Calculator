@@ -20,7 +20,7 @@ if usr_inpt == "investment":
                 t = int(num_years)
 
                 A = P * (1 + r * t)
-                print("The simple interest amount that you will get after " + str(t) + " years is R" + str(A))
+                print("The simple interest amount that you will get after " + str(t) + " month/s is R" + str(A))
 
         # Calculates the Compound interest amount that the user will get after a certain number of months or years
         elif interest == "compound":
@@ -29,7 +29,7 @@ if usr_inpt == "investment":
                 t = int(num_years)
 
                 A = P * math.pow((1 + r), t)
-                print("The simple compount interest amount that you will get after " + str(t) + " years is R" + str(A))
+                print("The simple compount interest amount that you will get after " + str(t) + " month/s is R" + str(A))
 
         # If the user enter anything either than Simple or Compound the else statement will be executed
         else:
